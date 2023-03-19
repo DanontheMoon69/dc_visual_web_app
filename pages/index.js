@@ -180,7 +180,7 @@ export default function Home() {
           our products and services from start to finish.
         </div>
         <div className=" mt-5 w-48">
-          <Image src={dcLogo} />
+          <Image src={dcLogo} alt="DC Visual" />
         </div>
         <div className="mt-2 tracking-widest font-bold text-gray-500 text-sm">
           WRAPS | GRAPHICS | DESIGN | WEB
