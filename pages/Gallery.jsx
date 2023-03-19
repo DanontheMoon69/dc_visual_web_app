@@ -7,7 +7,7 @@ const Gallery = () => {
   return (
     <div className="flex flex-col h-screen">
       <div className="flex justify-center font-bold text-xl text-center pt-48 items-center px-4">
-        <Image src={dcLogo} className=" w-36" />
+        <Image src={dcLogo} className=" w-36" alt="DC Visual"/>
       </div>
       <div className="flex justify-center font-bold text-xl text-white text-center pt-10 items-center px-4">
         We&apos;re working on something great for this at the moment! <br />
