@@ -244,8 +244,8 @@ const Services = () => {
             party or promotional event, and choose from a variety of durable
             materials that are ideal for the floor you want to dress, outdoor or
             indoor. DC Visual Floor Graphics apply smooth, stick great and are
-            slip resistant. And when you're ready to remove your Floor Graphics,
-            you can rest assured that they won't damage the flooring or leave a
+            slip resistant. And when you&apos;re ready to remove your Floor Graphics,
+            you can rest assured that they won&apos;t damage the flooring or leave a
             sticky residue behind. Take your advertising and promotional tactics
             to the next level with our custom floor wraps and graphics!
           </p>
@@ -271,7 +271,7 @@ const Services = () => {
       <input type="checkbox" id="my-modal-8" className="modal-toggle" />
       <div className="modal modal-bottom sm:modal-middle">
         <div className="modal-box">
-          <h3 className="font-bold text-lg">Rollin' in Style</h3>
+          <h3 className="font-bold text-lg">Rollin&apos; in Style</h3>
           <p className="py-4 text-sm tracking-wider">
             Vehicle wraps and graphics are not just for advertising purposes.
             Sometimes you simply want to make your vehicles unique, and stand
