@@ -22,7 +22,7 @@ const FAQ = () => {
             <div className="text-sm pt-2">
               We can Wrap Trucks, Cars, Vans, Box Trucks, RV&apos;s, Boats,
               Trailers, Walls, Windows, Floors or anything else you might want
-              to customize. We've wrapped Piano&apos;s, Ice Cream Carts, Guns,
+              to customize. We&apos;ve wrapped Piano&apos;s, Ice Cream Carts, Guns,
               and much more. If you have an idea for something that hasn&apos;t
               been listed, please reach out, We&apos;d be interested in trying
               something new!
