@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import Link from "next/link";
 import rzr01 from "../components/assets/RZR/Wolfpack_RZR_4 Seater_Dunes.jpg";
-import mustang01 from "../components/assets/Car Wraps/Ford Mustang_matte blue Wrap.jpg";
+import mustang01 from "../components/assets/Car Wraps/Ford Mustang_matte blue Wrap.JPG";
 import qar01 from "../components/assets/Car Wraps/Corvette z06_matte black wrap.jpg";
 import eco01 from "../components/assets/Partial Wraps/F-150 Satin Black_Partial Wrap.jpg";
 import rv01 from "../components/assets/RV Wraps/RV Wrap 01.jpg";
