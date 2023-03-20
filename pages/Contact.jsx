@@ -51,7 +51,7 @@ const Contact = () => {
         <title>DC Visual - Contact</title>
         <meta
           name="description"
-          content="Best Wrap Company in Texoma"
+          content="Get in Touch with our Wrap Specialists to help Drive Your Brand"
           key="desc"
         />
       </Head>
