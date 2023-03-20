@@ -7,7 +7,7 @@ import peterbilt from "../components/assets/Partial Wraps/Peterbilt_PartialWrap.
 import ram from "../components/assets/Truck Wraps/Ram 2500_Graphic Kit.jpg";
 import porsche from "../components/assets/Porsche Wraps/Porsche GT3 Wrap 03.jpg";
 import exteriorWall from "../components/assets/Wall Wraps/Exterior Wall Wrap 01.jpg";
-import windowWrap from "../components/assets/Wall Wraps/Window Wrap 01.JPG";
+import windowWrap from "../components/assets/Wall Wraps/Window Wrap 01.jpg";
 import floorWrap from "../components/assets/Floor Wraps/danceFloorWrap_01.jpg";
 import design from "../components/assets/Design/graphicDesigner.jpeg";
 import webDesign from "../components/assets/Design/WebDesign.jpeg";
