@@ -16,10 +16,10 @@ const Services = () => {
   return (
     <div className=" flex justify-center w-full  text-white pt-24">
       <Head>
-        <title>DC Visual - Services</title>
+        <title>DC Visual - What We Do</title>
         <meta
           name="description"
-          content="#1 Source for Vehicle Wraps, Fleet Wraps, Wall Wraps, Floor Wraps, Window Wraps, Web Design and Web Development"
+          content="From Logo Design & Brand Development to Fleet Wraps and Websites. We've Got You Covered!"
           key="desc"
         />
       </Head>
