@@ -59,7 +59,7 @@ const Quote = () => {
         <title>DC Visual - Get a Quote for your Wrap</title>
         <meta
           name="description"
-          content="#1 Source for Vehicle Wraps, Fleet Wraps, Wall Wraps, Floor Wraps, Window Wraps, Web Design and Web Development"
+          content="Get a Quote on your Next Fleet Wrap Project"
           key="desc"
         />
       </Head>

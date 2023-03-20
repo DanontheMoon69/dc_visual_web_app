@@ -6,7 +6,9 @@ import dcLogo from "../components/assets/dcVisual-HeaderLogo.png";
 const Footer = () => {
   return (
     <div className=" w-full flex flex-col gap-3 justify-center items-center text-gray-400 mt-14 pb-24">
-      <Image src={dcLogo} alt="" className=" w-14" />
+      <Link href="/">
+        <Image src={dcLogo} alt="" className=" w-14" />
+      </Link>
       <ul className="flex flex-wrap justify-center text-xs text-center">
         <li className=" p-1 ">
           <Link href="/">HOME</Link>

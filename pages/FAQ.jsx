@@ -8,7 +8,7 @@ const FAQ = () => {
         <title>DC Visual - Frequently Asked Wrap Questions</title>
         <meta
           name="description"
-          content="We have the solution for your Vehicle Fleet Wraps, Wall Wraps, Window Wraps, Floor Wraps, from Design to Installation. We also offer Web Development!"
+          content="Have Questions about Wraps? We're here to answer them all!"
           key="desc"
         />
       </Head>
@@ -22,10 +22,10 @@ const FAQ = () => {
             <div className="text-sm pt-2">
               We can Wrap Trucks, Cars, Vans, Box Trucks, RV&apos;s, Boats,
               Trailers, Walls, Windows, Floors or anything else you might want
-              to customize. We&apos;ve wrapped Piano&apos;s, Ice Cream Carts, Guns,
-              and much more. If you have an idea for something that hasn&apos;t
-              been listed, please reach out, We&apos;d be interested in trying
-              something new!
+              to customize. We&apos;ve wrapped Piano&apos;s, Ice Cream Carts,
+              Guns, and much more. If you have an idea for something that
+              hasn&apos;t been listed, please reach out, We&apos;d be interested
+              in trying something new!
             </div>
           </div>
           <div className="flex flex-col pt-2">
