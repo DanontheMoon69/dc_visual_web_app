@@ -3,7 +3,7 @@ import Head from "next/head";
 
 const FAQ = () => {
   return (
-    <div className="flex justify-center items-center">
+    <div className="flex justify-center items-center text-white">
       <Head>
         <title>DC Visual - Frequently Asked Wrap Questions</title>
         <meta
