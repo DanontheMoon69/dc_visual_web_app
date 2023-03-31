@@ -71,7 +71,7 @@ const Header = () => {
             </div>
           </Link>
           <a href="tel:+17149306037">
-            <div className=" bg-gray-500 rounded-full text-xs sm:text-xs md:text-sm px-4 py-2 text-center tracking-wide hover:ease-in transform hover:scale-105 hover:transition hover:duration-100 hover:shadow-lg">
+            <div className=" bg-gray-500 rounded-full text-xs sm:text-xs md:text-sm px-4 py-2 text-center tracking-wide hover:ease-in transform hover:scale-105 hover:transition hover:duration-100 hover:shadow-lg mt-2">
               Give us a Call
             </div>
           </a>
