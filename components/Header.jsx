@@ -64,11 +64,18 @@ const Header = () => {
         </ul>
 
         {/* Mobile Button */}
-        <Link href="/Quote">
-          <div className=" bg-gray-700 rounded-full text-sm sm:text-xs md:text-sm px-4 py-2 text-center tracking-wide hover:ease-in transform hover:scale-105 hover:transition hover:duration-100 hover:shadow-lg">
-            Get a Quote
-          </div>
-        </Link>
+        <div className="flex flex-col gap-2 mb-3">
+          <Link href="/Quote">
+            <div className=" bg-gray-700 rounded-full text-xs sm:text-xs md:text-sm px-4 py-2 text-center tracking-wide hover:ease-in transform hover:scale-105 hover:transition hover:duration-100 hover:shadow-lg">
+              Get a Quote
+            </div>
+          </Link>
+          <a href="tel:+7149306037">
+            <div className=" bg-gray-500 rounded-full text-xs sm:text-xs md:text-sm px-4 py-2 text-center tracking-wide hover:ease-in transform hover:scale-105 hover:transition hover:duration-100 hover:shadow-lg">
+              Give us a Call
+            </div>
+          </a>
+        </div>
         <div
           onClick={handleNav}
           className="block sm:hidden z-10 cursor-pointer hover:ease-in transform hover:scale-105 hover:transition hover:duration-100 hover:shadow-lg"
