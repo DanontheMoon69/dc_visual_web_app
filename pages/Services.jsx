@@ -7,7 +7,7 @@ import peterbilt from "../components/assets/Partial Wraps/Peterbilt_PartialWrap.
 import ram from "../components/assets/Truck Wraps/Ram 2500_Graphic Kit.jpg";
 import porsche from "../components/assets/Porsche Wraps/Porsche GT3 Wrap 03.jpg";
 import exteriorWall from "../components/assets/Wall Wraps/Exterior Wall Wrap 01.jpg";
-import windowWrap from "../components/assets/Wall Wraps/Window Wrap 01.JPG";
+import windowWrap from "../components/assets/Wall Wraps/Window Wrap 01.jpg";
 import floorWrap from "../components/assets/Floor Wraps/danceFloorWrap_01.jpg";
 import design from "../components/assets/Design/graphicDesigner.jpeg";
 import webDesign from "../components/assets/Design/WebDesign.jpeg";
@@ -16,10 +16,10 @@ const Services = () => {
   return (
     <div className=" flex justify-center w-full  text-white pt-24">
       <Head>
-        <title>DC Visual - Services</title>
+        <title>DC Visual - What We Do</title>
         <meta
           name="description"
-          content="#1 Source for Vehicle Wraps, Fleet Wraps, Wall Wraps, Floor Wraps, Window Wraps, Web Design and Web Development"
+          content="From Logo Design & Brand Development to Fleet Wraps and Websites. We've Got You Covered!"
           key="desc"
         />
       </Head>
@@ -244,10 +244,11 @@ const Services = () => {
             party or promotional event, and choose from a variety of durable
             materials that are ideal for the floor you want to dress, outdoor or
             indoor. DC Visual Floor Graphics apply smooth, stick great and are
-            slip resistant. And when you&apos;re ready to remove your Floor Graphics,
-            you can rest assured that they won&apos;t damage the flooring or leave a
-            sticky residue behind. Take your advertising and promotional tactics
-            to the next level with our custom floor wraps and graphics!
+            slip resistant. And when you&apos;re ready to remove your Floor
+            Graphics, you can rest assured that they won&apos;t damage the
+            flooring or leave a sticky residue behind. Take your advertising and
+            promotional tactics to the next level with our custom floor wraps
+            and graphics!
           </p>
           <div className="flex justify-end">
             <Link href="/Quote">
@@ -378,10 +379,10 @@ const Services = () => {
         <div className="flex justify-center items-center text-center tracking-widest bg-gray-900 w-full my-2 p-2">
           From Concept to Completion
         </div>
-        <div className="flex justify-center items-center text-md text-center sm:text-lg tracking-widest px-4">
-          Custom Wraps, Graphics, Signs
+        <div className="flex justify-center items-center text-md text-center sm:text-lg tracking-widest px-4 font-bold">
+          Custom Wraps, Graphics & Signs
         </div>
-        <div className="flex justify-center items-center font-bold text-sm text-center tracking-widest px-4 py-2 sm:text-xl text-gray-200 animate-pulse">
+        <div className="flex justify-center items-center text-sm text-center tracking-widest px-4 py-2 sm:text-xl text-gray-200 animate-pulse">
           Now Offering Full-Stack Web Development
         </div>
         {/* FLEET WRAPS */}
