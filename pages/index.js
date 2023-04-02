@@ -130,21 +130,21 @@ export default function Home() {
           <div className="flex gap-3 items-center justify-center text-gray-400 text-xs font-semibold tracking-widest p-4 mb-2">
             <Image src={texasFlag} alt="USA" className=" w-16" />
             <div className="flex flex-col px-1">
-              <div>Nation Wide Fleet Wrap Services</div>
-              <div>3M Preferred Installers</div>
+              <h1>Nation Wide Fleet Wrap Services</h1>
+              <h2>3M Preferred Installers</h2>
             </div>
             <Image src={USA} alt="USA" className=" w-16" />
           </div>
         </div>
-        <div className=" text-gray-400 text-xs sm:text-lg font-semibold tracking-widest mt-4">
+        <h3 className=" text-gray-400 text-xs sm:text-lg font-semibold tracking-widest mt-4">
           FULL SERVICE FLEET BRANDING COMPANY
-        </div>
+        </h3>
         <div className=" text-white text-3xl sm:text-4xl font-bold  mt-1">
           DRIVE YOUR BRAND
         </div>
-        <div className=" text-gray-400 text-md sm:text-lg font-semibold tracking-widest mb-5 mt-1">
+        <h3 className=" text-gray-400 text-md sm:text-lg font-semibold tracking-widest mb-5 mt-1">
           DESIGN | PRINT | INSTALL
-        </div>
+        </h3>
 
         {/*  */}
         {/* START CAROUSEL 1 */}
