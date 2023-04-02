@@ -130,7 +130,7 @@ export default function Home() {
           <div className="flex gap-3 items-center justify-center text-gray-400 text-xs font-semibold tracking-widest p-4 mb-2">
             <Image src={texasFlag} alt="USA" className=" w-16" />
             <div className="flex flex-col px-1">
-              <h1>Nation Wide Fleet Wrap Services</h1>
+              <h1>Nation Wide Vehicle Wrap Services</h1>
               <h2>3M Preferred Installers</h2>
             </div>
             <Image src={USA} alt="USA" className=" w-16" />
