@@ -64,9 +64,9 @@ const Quote = () => {
         />
       </Head>
       <div className="flex flex-col">
-        <span className=" text-white text-4xl font-bold text-center">
-          Interested In Our Services?
-        </span>
+        <h2 className=" text-white text-4xl font-bold text-center">
+          Looking to get a wrap?
+        </h2>
         <span className="text-center p-4">
           Please submit the quote form below and one of our team members will
           reach out to you as soon as possible!
@@ -77,9 +77,9 @@ const Quote = () => {
             onSubmit={sendEmail}
             className="w-full md:w-1/2 sm:w-3/4"
           >
-            <div className="flex justify-center  mt-2 mb-4 text-xl sm:text-2xl font-bold text-white">
-              Let us Quote your Project!
-            </div>
+            <h1 className="flex justify-center  mt-2 mb-4 text-xl sm:text-2xl font-bold text-white">
+              Let us Quote your Wrap Project!
+            </h1>
             <div className="block sm:flex sm:gap-2 mb-6">
               <div className=" sm:w-1/2 w-full">
                 <label className="block text-xs mb-2">First Name *</label>
