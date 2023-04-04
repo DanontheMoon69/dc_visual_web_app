@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url><loc>https://dcvisualco.com</loc><lastmod>2023-04-02T03:53:17.008Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://dcvisualco.com/Apparel</loc><lastmod>2023-04-02T03:53:17.008Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://dcvisualco.com/Contact</loc><lastmod>2023-04-02T03:53:17.008Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://dcvisualco.com/FAQ</loc><lastmod>2023-04-02T03:53:17.008Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://dcvisualco.com/Gallery</loc><lastmod>2023-04-02T03:53:17.008Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://dcvisualco.com/Quote</loc><lastmod>2023-04-02T03:53:17.008Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://dcvisualco.com/Services</loc><lastmod>2023-04-02T03:53:17.008Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://dcvisualco.com</loc><lastmod>2023-04-04T05:18:11.655Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://dcvisualco.com/Apparel</loc><lastmod>2023-04-04T05:18:11.655Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://dcvisualco.com/CarWraps</loc><lastmod>2023-04-04T05:18:11.655Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://dcvisualco.com/Contact</loc><lastmod>2023-04-04T05:18:11.655Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://dcvisualco.com/FAQ</loc><lastmod>2023-04-04T05:18:11.655Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://dcvisualco.com/FleetWraps</loc><lastmod>2023-04-04T05:18:11.655Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://dcvisualco.com/Gallery</loc><lastmod>2023-04-04T05:18:11.655Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://dcvisualco.com/Quote</loc><lastmod>2023-04-04T05:18:11.655Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://dcvisualco.com/Services</loc><lastmod>2023-04-04T05:18:11.655Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://dcvisualco.com/TruckWraps</loc><lastmod>2023-04-04T05:18:11.655Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://dcvisualco.com/VanWraps</loc><lastmod>2023-04-04T05:18:11.655Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://dcvisualco.com/WallWraps</loc><lastmod>2023-04-04T05:18:11.655Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://dcvisualco.com/WindowWraps</loc><lastmod>2023-04-04T05:18:11.655Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
 </urlset>
