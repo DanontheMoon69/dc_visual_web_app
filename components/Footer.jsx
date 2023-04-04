@@ -18,12 +18,6 @@ const Footer = () => {
         </li>
 
         <li className=" p-1 ">
-          <Link href="/Gallery">GALLERY</Link>
-        </li>
-        <li className=" p-1 ">
-          <Link href="/Calendar">PRICING</Link>
-        </li>
-        <li className=" p-1 ">
           <Link href="/Contact">CONTACT</Link>
         </li>
         <li className=" p-1 ">
