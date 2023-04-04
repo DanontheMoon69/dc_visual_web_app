@@ -126,23 +126,23 @@ export default function Home() {
         {/*  */}
         {/* PAGE START */}
         {/*  */}
-        <div className=" w-full bg-gray-900">
+        <div className=" w-full bg-gray-900 scrollbar-hide">
           <div className="flex gap-3 items-center justify-center text-gray-400 text-xs font-semibold tracking-widest p-4 mb-2">
             <Image src={texasFlag} alt="USA" className=" w-16" />
             <div className="flex flex-col px-1">
-              <h1>Nation Wide Vehicle Wrap Services</h1>
+              <h1>DC VISUAL</h1>
               <h2>3M Preferred Installers</h2>
             </div>
             <Image src={USA} alt="USA" className=" w-16" />
           </div>
         </div>
-        <h3 className=" text-gray-400 text-xs sm:text-lg font-semibold tracking-widest mt-4">
+        <h3 className=" text-blue-500 text-xs sm:text-lg font-semibold tracking-widest mt-4">
           FULL SERVICE FLEET BRANDING COMPANY
         </h3>
-        <div className=" text-white text-3xl sm:text-4xl font-bold  mt-1">
+        <div className=" text-white text-3xl sm:text-4xl font-bold  mt-1 tracking-wider">
           DRIVE YOUR BRAND
         </div>
-        <h3 className=" text-gray-400 text-md sm:text-lg font-semibold tracking-widest mb-5 mt-1">
+        <h3 className=" text-blue-500 text-md sm:text-lg font-semibold tracking-widest mb-5 mt-1">
           DESIGN | PRINT | INSTALL
         </h3>
 
@@ -252,7 +252,7 @@ export default function Home() {
         {/*  */}
         <div className="  w-full flex justify-center items-center">
           <div className="flex flex-col ">
-            <div className=" text-white  font-bold text-2xl sm:text-3xl mt-3">
+            <div className=" text-blue-500  font-bold text-2xl sm:text-3xl mt-3">
               WE LOVE WHAT WE DO.
             </div>
             <div className=" text-white text-md p-4 mx-3 max-w-3xl text-center">
@@ -262,7 +262,7 @@ export default function Home() {
               branding projects.
             </div>
             <div className=" p-4 mt-6 mb-4">
-              <div className=" text-white mb-4 text-xl font-bold sm:text-3xl">
+              <div className=" text-blue-500 mb-4 text-xl font-bold sm:text-3xl">
                 Why Should You Get A Wrap?
               </div>
               <div className="  text-md   px-2 ">
@@ -282,7 +282,7 @@ export default function Home() {
                 </div>
               </Link>
             </div>
-            <div className=" text-white font-bold mt-8 px-2 sm:text-3xl">
+            <div className=" text-blue-500 font-bold mt-8 px-2 sm:text-3xl">
               Need Help Choosing the Right Product?
             </div>
             <div className="flex justify-center w-full text-sm">
