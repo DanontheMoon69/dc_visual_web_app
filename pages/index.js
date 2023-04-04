@@ -16,6 +16,8 @@ import pgc from "../components/assets/Dimensional Lettering/Interior Acrylic Let
 import swat from "../components/assets/Truck Wraps/f-150_Satin Black Wrap_Satin Graphic Kit.jpg";
 import usBank from "../components/assets/Food Truck Wraps/US Bank Food Truck Wrap.jpg";
 import vacTruck from "../components/assets/Vacuum Truck Wraps/Vacuum Truck Wrap 04.jpg";
+import PreferredInstaller3m from "../components/assets/Logos/3M_Preferred Installer_Emblem.png";
+
 import { Montserrat } from "next/font/google";
 import Head from "next/head";
 const montserrat = Montserrat({
@@ -128,13 +130,26 @@ export default function Home() {
         {/*  */}
         <div className=" w-full bg-gray-900 scrollbar-hide">
           <div className="flex gap-3 items-center justify-center text-gray-400 text-xs font-semibold tracking-widest p-4 mb-2">
-            <Image src={texasFlag} alt="USA" className=" w-16" />
-            <div className="flex flex-col px-1">
-              <h1>DC VISUAL</h1>
-              <h2>3M Preferred Installers</h2>
-            </div>
             <Image src={USA} alt="USA" className=" w-16" />
+
+            <div className="flex flex-col px-1 text-2xl text-white font-black">
+              <h1>DC VISUAL</h1>
+              <h2 className="text-sm font-normal">Lewisville, TX</h2>
+              <h2 className="text-sm font-normal">Texoma Vehicle Wraps</h2>
+            </div>
+            <Image src={texasFlag} alt="USA" className=" w-16" />
           </div>
+        </div>
+        <div className="flex items-center text-white font-bold text-left leading-8 mt-5 text-3xl">
+          <Image
+            src={PreferredInstaller3m}
+            height={80}
+            width={80}
+            className="pr-3"
+          />{" "}
+          3M Preferred
+          <br />
+          Installer
         </div>
         <h3 className=" text-blue-500 text-xs sm:text-lg font-semibold tracking-widest mt-4">
           FULL SERVICE FLEET BRANDING COMPANY
