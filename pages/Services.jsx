@@ -373,18 +373,18 @@ const Services = () => {
       {/* PAGE START */}
 
       <div className="flex flex-col">
-        <div className=" flex justify-center items-center text-4xl font-bold text-center">
+        <h3 className=" flex justify-center items-center text-4xl font-bold text-center">
           WHAT WE DO
-        </div>
+        </h3>
         <h3 className="flex justify-center items-center text-center tracking-widest bg-gray-900 w-full my-2 p-2">
           From Concept to Completion
         </h3>
-        <h1 className="flex justify-center items-center text-md text-center sm:text-lg tracking-widest px-4 font-bold">
+        <h1 className="flex justify-center items-center text-md text-center sm:text-lg tracking-widest px-4 font-bold text-blue-500">
           Custom Wraps, Graphics & Signs
         </h1>
-        <h3 className="flex justify-center items-center text-sm text-center tracking-widest px-4 py-2 sm:text-xl text-gray-200 animate-pulse">
+        <h2 className="flex justify-center items-center text-sm text-center tracking-widest px-4 py-2 sm:text-xl text-gray-200 animate-pulse">
           Now Offering Full-Stack Web Development
-        </h3>
+        </h2>
         {/* FLEET WRAPS */}
 
         <div className="card lg:card-side shadow-xl m-3 p-3 bg-gray-900 bg-opacity-30">
@@ -392,7 +392,7 @@ const Services = () => {
             <Image src={dcFleet} alt="USA" className=" w-96 object-cover" />
           </figure>
           <div className="card-body">
-            <h3 className=" text-2xl font-black">Fleet Wraps</h3>
+            <h1 className=" text-2xl text-blue-500 font-black">Fleet Wraps</h1>
             <p className=" text-xs">
               Full Color Digital Printed w/ Gloss or Matte Lamination
             </p>
@@ -416,7 +416,9 @@ const Services = () => {
             <Image src={peterbilt} alt="USA" className=" w-96 object-cover" />
           </figure>
           <div className="card-body">
-            <h3 className=" text-2xl font-black">Partial Wraps</h3>
+            <h1 className=" text-2xl font-black text-blue-500 ">
+              Partial Wraps
+            </h1>
             <p className=" text-xs">
               Full Color Digital Printed Partial Wrap w/ Gloss or Matte
               Lamination
@@ -441,7 +443,9 @@ const Services = () => {
             <Image src={ram} alt="USA" className=" w-96 object-cover" />
           </figure>
           <div className="card-body">
-            <h3 className=" text-2xl font-black">Spot Graphics</h3>
+            <h1 className=" text-2xl font-black text-blue-500 ">
+              Spot Graphics
+            </h1>
             <p className=" text-xs">
               - Full Color Digital Printed w/ Gloss <br />- Matte Lamination or
               Die-Cut Vinyl Decals in any available finish.
@@ -466,7 +470,9 @@ const Services = () => {
             <Image src={porsche} alt="USA" className=" w-96 object-cover" />
           </figure>
           <div className="card-body">
-            <h3 className=" text-2xl font-black">Luxury Color Change</h3>
+            <h1 className=" text-2xl font-black text-blue-500 ">
+              Luxury Color Change
+            </h1>
             <p className=" text-xs">
               - Full Color Digital Printed w/ Gloss or Matte Lamination <br />-
               Any Solid Color in Gloss, Matte or Satin Finish
@@ -495,7 +501,7 @@ const Services = () => {
             />
           </figure>
           <div className="card-body">
-            <h3 className=" text-2xl font-black">Wall Wraps</h3>
+            <h1 className=" text-2xl font-black text-blue-500 ">Wall Wraps</h1>
             <p className=" text-xs">
               Full Color Digital Printed w/ Matte or Luster Lamination.
             </p>
@@ -519,7 +525,9 @@ const Services = () => {
             <Image src={windowWrap} alt="USA" className=" w-96 object-cover" />
           </figure>
           <div className="card-body">
-            <h3 className=" text-2xl font-black">Window Wraps & Graphics</h3>
+            <h1 className=" text-2xl font-black text-blue-500 ">
+              Window Wraps & Graphics
+            </h1>
             <p className=" text-xs">
               - Full Color Digital Printed w/ Gloss or Matte Lamination
               <br />
@@ -546,7 +554,9 @@ const Services = () => {
             <Image src={floorWrap} alt="USA" className=" w-96 object-cover" />
           </figure>
           <div className="card-body">
-            <h3 className=" text-2xl font-black">Floor Wraps & Graphics</h3>
+            <h1 className=" text-2xl font-black text-blue-500 ">
+              Floor Wraps & Graphics
+            </h1>
             <p className=" text-xs">
               Full Color Digital Printed w/ slip resistant Lamination
             </p>
@@ -570,7 +580,9 @@ const Services = () => {
             <Image src={design} alt="USA" className=" w-96 object-cover" />
           </figure>
           <div className="card-body">
-            <h3 className=" text-2xl font-black">Design Services</h3>
+            <h1 className=" text-2xl font-black text-blue-500 ">
+              Design Services
+            </h1>
             <p className=" text-xs">High-Quality Designs at Affordable Costs</p>
             <div className="card-actions justify-start">
               <label
@@ -592,7 +604,9 @@ const Services = () => {
             <Image src={webDesign} alt="USA" className=" w-96 object-cover" />
           </figure>
           <div className="card-body">
-            <h3 className=" text-2xl font-black">Web Design Services</h3>
+            <h1 className=" text-2xl font-black text-blue-500 ">
+              Web Design Services
+            </h1>
             <p className=" text-xs">
               Get Found Online and Turn Clicks Into Customers With a
               Well-Optimized Website
