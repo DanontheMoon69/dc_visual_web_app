@@ -17,6 +17,9 @@ import swat from "../components/assets/Truck Wraps/f-150_Satin Black Wrap_Satin 
 import usBank from "../components/assets/Food Truck Wraps/US Bank Food Truck Wrap.jpg";
 import vacTruck from "../components/assets/Vacuum Truck Wraps/Vacuum Truck Wrap 04.jpg";
 import PreferredInstaller3m from "../components/assets/Logos/3M_Preferred Installer_Emblem.png";
+import Script from "next/script";
+
+// GOOGLE ANALYTICS
 
 import { Montserrat } from "next/font/google";
 import Head from "next/head";
@@ -36,6 +39,20 @@ export default function Home() {
           content="#1 Source for Fleet Wraps, Wall Wraps, Windows Wraps & Floor Wraps in Texoma, Dallas and all of North-Central Texas"
           key="desc"
         />
+        <Script
+          strategy="lazyOnload"
+          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS}`}
+        />
+        <Script id="ga-script" strategy="lazyOnload">
+          {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '${process.env.GOOGLE_ANALYTICS}', {
+      page_path: window.location.pathname,
+    });
+        `}
+        </Script>
       </Head>
       <div className=" flex flex-col items-center    text-center h-full pt-24 pb-15 ">
         {/*  */}
@@ -151,13 +168,13 @@ export default function Home() {
           <br />
           Installer
         </div>
-        <h3 className=" text-blue-500 text-xs sm:text-lg font-semibold tracking-widest mt-4">
+        <h3 className=" text-yellow-500 text-xs sm:text-lg font-semibold tracking-widest mt-4">
           FULL SERVICE FLEET BRANDING COMPANY
         </h3>
         <div className=" text-white text-3xl sm:text-4xl font-bold  mt-1 tracking-wider">
           DRIVE YOUR BRAND
         </div>
-        <h3 className=" text-blue-500 text-md sm:text-lg font-semibold tracking-widest mb-5 mt-1">
+        <h3 className=" text-yellow-500 text-md sm:text-lg font-semibold tracking-widest mb-5 mt-1">
           DESIGN | PRINT | INSTALL
         </h3>
 
@@ -267,7 +284,7 @@ export default function Home() {
         {/*  */}
         <div className="  w-full flex justify-center items-center">
           <div className="flex flex-col ">
-            <div className=" text-blue-500  font-bold text-2xl sm:text-3xl mt-3">
+            <div className=" text-yellow-500  font-bold text-2xl sm:text-3xl mt-3">
               WE LOVE WHAT WE DO.
             </div>
             <div className=" text-white text-md p-4 mx-3 max-w-3xl text-center">
@@ -277,7 +294,7 @@ export default function Home() {
               branding projects.
             </div>
             <div className=" p-4 mt-6 mb-4">
-              <div className=" text-blue-500 mb-4 text-xl font-bold sm:text-3xl">
+              <div className=" text-yellow-500 mb-4 text-xl font-bold sm:text-3xl">
                 Why Should You Get A Wrap?
               </div>
               <div className="  text-md   px-2 ">
@@ -297,7 +314,7 @@ export default function Home() {
                 </div>
               </Link>
             </div>
-            <div className=" text-blue-500 font-bold mt-8 px-2 sm:text-3xl">
+            <div className=" text-yellow-500 font-bold mt-8 px-2 sm:text-3xl">
               Need Help Choosing the Right Product?
             </div>
             <div className="flex justify-center w-full text-sm">

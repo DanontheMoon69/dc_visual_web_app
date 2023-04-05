@@ -1,5 +1,7 @@
 import React from "react";
 import Image from "next/image";
+import Head from "next/head";
+import Script from "next/script";
 import carWash from "../components/assets/Wall Wraps/Car Wash_Exterior Wall Wrap.jpg";
 import hotelWall from "../components/assets/Wall Wraps/Exterior Wall Wrap 01.jpg";
 
@@ -9,11 +11,33 @@ import { BsFillKeyFill } from "react-icons/bs";
 const WallWraps = () => {
   return (
     <>
+      <Head>
+        <title>DC Visual - Wall Wraps</title>
+        <meta
+          name="description"
+          content="Best Source for Wall Wraps in Texoma, Dallas and all of North-Central Texas"
+          key="desc"
+        />
+        <Script
+          strategy="lazyOnload"
+          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS}`}
+        />
+        <Script id="ga-script" strategy="lazyOnload">
+          {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '${process.env.GOOGLE_ANALYTICS}', {
+      page_path: window.location.pathname,
+    });
+        `}
+        </Script>
+      </Head>
       <div className=" w-full">
         <h1 className=" text-3xl pt-24 text-center text-white font-bold">
           Wall Wraps
         </h1>
-        <h2 className=" text-xl text-center text-blue-500 pt-2 tracking-widest px-4">
+        <h2 className=" text-xl text-center text-yellow-500 pt-2 tracking-widest px-4">
           Transform Your Space
         </h2>
         <p className=" text-sm text-center text-gray-300 p-4 sm:text-base tracking-widest px-4 sm:px-24 md:px-28 lg:px-48">
@@ -67,7 +91,7 @@ const WallWraps = () => {
         {/*  */}
         {/*  */}
 
-        <h2 className="text-center text-3xl font-bold text-white pt-16 px-4">
+        <h2 className="text-center text-3xl font-bold text-yellow-500 pt-16 px-4">
           Our steps to Wall Transformation
         </h2>
 

@@ -1,11 +1,10 @@
 import React from "react";
 import Image from "next/image";
-import rzr01 from "../components/assets/RZR/Wolfpack_RZR_4 Seater_Dunes.jpg";
+import Head from "next/head";
+import Script from "next/script";
 import mustang01 from "../components/assets/Car Wraps/Ford Mustang_matte blue Wrap.jpg";
 import qar01 from "../components/assets/Car Wraps/Corvette z06_matte black wrap.jpg";
-import eco01 from "../components/assets/Partial Wraps/F-150 Satin Black_Partial Wrap.jpg";
-import rv01 from "../components/assets/RV Wraps/RV Wrap 01.jpg";
-import van01 from "../components/assets/Van Wraps/Ford Transit Wrap_Matte Black and Matte Metallic Grey.jpg";
+
 import porsche1 from "../components/assets/Porsche Wraps/Porsche GT3 Wrap 04.jpg";
 import porsche2 from "../components/assets/Porsche Wraps/Porsche GT3 Wrap 02.jpg";
 import fisker from "../components/assets/Car Wraps/Fisker Wrap 01.jpeg";
@@ -14,11 +13,33 @@ import mustang02 from "../components/assets/Car Wraps/Ford Mustan_Matte Military
 const CarWraps = () => {
   return (
     <>
+      <Head>
+        <title>DC Visual - Car Wraps</title>
+        <meta
+          name="description"
+          content="Best Source for Car Wraps in Texoma, Dallas and all of North-Central Texas"
+          key="desc"
+        />
+        <Script
+          strategy="lazyOnload"
+          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS}`}
+        />
+        <Script id="ga-script" strategy="lazyOnload">
+          {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '${process.env.GOOGLE_ANALYTICS}', {
+      page_path: window.location.pathname,
+    });
+        `}
+        </Script>
+      </Head>
       <div className=" w-full">
         <h1 className=" text-3xl pt-24 text-center text-white font-bold">
           Car Wraps
         </h1>
-        <h2 className=" text-xl text-center text-blue-500 pt-2 tracking-widest px-4">
+        <h2 className=" text-xl text-center text-yellow-500 pt-2 tracking-widest px-4">
           Every Traffic Jam is an Opportunity to Market your Business
         </h2>
         <p className=" text-sm text-center text-gray-300 p-4 sm:text-base tracking-widest">
@@ -131,7 +152,7 @@ const CarWraps = () => {
         {/*  */}
 
         <div className="">
-          <h2 className="text-center text-2xl font-bold text-blue-500 pt-16 px-4">
+          <h2 className="text-center text-2xl font-bold text-yellow-500 pt-16 px-4">
             A Guide to Car Wraps in Texas
           </h2>
 
@@ -144,7 +165,7 @@ const CarWraps = () => {
           </p>
         </div>
 
-        <h1 className="text-center text-3xl font-bold text-blue-500 pt-8">
+        <h1 className="text-center text-3xl font-bold text-yellow-500 pt-8">
           What is a Car Wrap?
         </h1>
         <p className="sm:px-16 md:px-32 text-white p-4 text-center tracking-wider">
@@ -156,7 +177,7 @@ const CarWraps = () => {
           wear-and-tear. With wrap materials that are warrantied for 3-5 years
           you can be assured your vehicle will be looking great as it ages.{" "}
         </p>
-        <h1 className="text-center text-3xl font-bold text-blue-500 pt-8 px-4">
+        <h1 className="text-center text-3xl font-bold text-yellow-500 pt-8 px-4">
           How Much Does a Car Wrap cost in Texas ?
         </h1>
         <p className="sm:px-16 md:px-32 text-white p-4 text-center tracking-wider ">
@@ -167,7 +188,7 @@ const CarWraps = () => {
           professionals can provide great advice on getting started as well as
           give you an exact quote to make sure everything works out perfectly.
         </p>
-        <h1 className="text-center text-3xl font-bold text-blue-500 pt-8 px-4">
+        <h1 className="text-center text-3xl font-bold text-yellow-500 pt-8 px-4">
           Where Can I Get One?
         </h1>
         <p className="sm:px-16 md:px-32 text-white p-4 text-center tracking-wider ">

@@ -2,7 +2,7 @@ import React, { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { useRouter } from "next/navigation";
 import Head from "next/head";
-
+import Script from "next/script";
 const Contact = () => {
   const [toSend, setToSend] = useState({
     from_name: "",
@@ -51,9 +51,23 @@ const Contact = () => {
         <title>DC Visual - Contact</title>
         <meta
           name="description"
-          content="Best Wrap Company in Texoma"
+          content="Contact DC Visual about your next Wrap Project"
           key="desc"
         />
+        <Script
+          strategy="lazyOnload"
+          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS}`}
+        />
+        <Script id="ga-script" strategy="lazyOnload">
+          {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '${process.env.GOOGLE_ANALYTICS}', {
+      page_path: window.location.pathname,
+    });
+        `}
+        </Script>
       </Head>
       <section className=" w-full sm:w-3/4  text-gray-800  sm:mt-10">
         <div className="text-4xl font-bold mb-5 flex items-center align-middle justify-center text-white text-center">

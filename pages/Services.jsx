@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Head from "next/head";
+import Script from "next/script";
 import Link from "next/link";
 import dcFleet from "../components/assets/Fleet Wraps/DC_fleet.png";
 import peterbilt from "../components/assets/Partial Wraps/Peterbilt_PartialWrap.jpg";
@@ -22,6 +23,20 @@ const Services = () => {
           content="From Logo Design & Brand Development to Fleet Wraps and Websites. We've Got You Covered!"
           key="desc"
         />
+        <Script
+          strategy="lazyOnload"
+          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS}`}
+        />
+        <Script id="ga-script" strategy="lazyOnload">
+          {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '${process.env.GOOGLE_ANALYTICS}', {
+      page_path: window.location.pathname,
+    });
+        `}
+        </Script>
       </Head>
       {/* MODALS */}
 
@@ -379,7 +394,7 @@ const Services = () => {
         <h3 className="flex justify-center items-center text-center tracking-widest bg-gray-900 w-full my-2 p-2">
           From Concept to Completion
         </h3>
-        <h1 className="flex justify-center items-center text-md text-center sm:text-lg tracking-widest px-4 font-bold text-blue-500">
+        <h1 className="flex justify-center items-center text-md text-center sm:text-lg tracking-widest px-4 font-bold text-yellow-500">
           Custom Wraps, Graphics & Signs
         </h1>
         <h2 className="flex justify-center items-center text-sm text-center tracking-widest px-4 py-2 sm:text-xl text-gray-200 animate-pulse">
@@ -392,7 +407,9 @@ const Services = () => {
             <Image src={dcFleet} alt="USA" className=" w-96 object-cover" />
           </figure>
           <div className="card-body">
-            <h1 className=" text-2xl text-blue-500 font-black">Fleet Wraps</h1>
+            <h1 className=" text-2xl text-yellow-500 font-black">
+              Fleet Wraps
+            </h1>
             <p className=" text-xs">
               Full Color Digital Printed w/ Gloss or Matte Lamination
             </p>
@@ -416,7 +433,7 @@ const Services = () => {
             <Image src={peterbilt} alt="USA" className=" w-96 object-cover" />
           </figure>
           <div className="card-body">
-            <h1 className=" text-2xl font-black text-blue-500 ">
+            <h1 className=" text-2xl font-black text-yellow-500">
               Partial Wraps
             </h1>
             <p className=" text-xs">
@@ -443,7 +460,7 @@ const Services = () => {
             <Image src={ram} alt="USA" className=" w-96 object-cover" />
           </figure>
           <div className="card-body">
-            <h1 className=" text-2xl font-black text-blue-500 ">
+            <h1 className=" text-2xl font-black text-yellow-500 ">
               Spot Graphics
             </h1>
             <p className=" text-xs">
@@ -470,7 +487,7 @@ const Services = () => {
             <Image src={porsche} alt="USA" className=" w-96 object-cover" />
           </figure>
           <div className="card-body">
-            <h1 className=" text-2xl font-black text-blue-500 ">
+            <h1 className=" text-2xl font-black text-yellow-500 ">
               Luxury Color Change
             </h1>
             <p className=" text-xs">
@@ -501,7 +518,9 @@ const Services = () => {
             />
           </figure>
           <div className="card-body">
-            <h1 className=" text-2xl font-black text-blue-500 ">Wall Wraps</h1>
+            <h1 className=" text-2xl font-black text-yellow-500 ">
+              Wall Wraps
+            </h1>
             <p className=" text-xs">
               Full Color Digital Printed w/ Matte or Luster Lamination.
             </p>
@@ -525,7 +544,7 @@ const Services = () => {
             <Image src={windowWrap} alt="USA" className=" w-96 object-cover" />
           </figure>
           <div className="card-body">
-            <h1 className=" text-2xl font-black text-blue-500 ">
+            <h1 className=" text-2xl font-black text-yellow-500 ">
               Window Wraps & Graphics
             </h1>
             <p className=" text-xs">
@@ -554,7 +573,7 @@ const Services = () => {
             <Image src={floorWrap} alt="USA" className=" w-96 object-cover" />
           </figure>
           <div className="card-body">
-            <h1 className=" text-2xl font-black text-blue-500 ">
+            <h1 className=" text-2xl font-black text-yellow-500 ">
               Floor Wraps & Graphics
             </h1>
             <p className=" text-xs">
@@ -580,7 +599,7 @@ const Services = () => {
             <Image src={design} alt="USA" className=" w-96 object-cover" />
           </figure>
           <div className="card-body">
-            <h1 className=" text-2xl font-black text-blue-500 ">
+            <h1 className=" text-2xl font-black text-yellow-500 ">
               Design Services
             </h1>
             <p className=" text-xs">High-Quality Designs at Affordable Costs</p>
@@ -604,7 +623,7 @@ const Services = () => {
             <Image src={webDesign} alt="USA" className=" w-96 object-cover" />
           </figure>
           <div className="card-body">
-            <h1 className=" text-2xl font-black text-blue-500 ">
+            <h1 className=" text-2xl font-black text-yellow-500 ">
               Web Design Services
             </h1>
             <p className=" text-xs">

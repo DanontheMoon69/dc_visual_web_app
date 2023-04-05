@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
 import Head from "next/head";
-
+import Script from "next/script";
 import { useRouter } from "next/navigation";
 
 const Quote = () => {
@@ -56,12 +56,26 @@ const Quote = () => {
   return (
     <div className="bg-transparent pt-24">
       <Head>
-        <title>DC Visual - Get a Quote for your Wrap</title>
+        <title>DC Visual - Wrap Quote</title>
         <meta
           name="description"
-          content="#1 Source for Vehicle Wraps, Fleet Wraps, Wall Wraps, Floor Wraps, Window Wraps, Web Design and Web Development"
+          content="Get a quote for your next Car Wrap, Truck Wrap, Van Wrap, Fleet Wrap, Wall Wrap or Window Wrap"
           key="desc"
         />
+        <Script
+          strategy="lazyOnload"
+          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS}`}
+        />
+        <Script id="ga-script" strategy="lazyOnload">
+          {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '${process.env.GOOGLE_ANALYTICS}', {
+      page_path: window.location.pathname,
+    });
+        `}
+        </Script>
       </Head>
       <div className="flex flex-col">
         <h2 className=" text-white text-4xl font-bold text-center">

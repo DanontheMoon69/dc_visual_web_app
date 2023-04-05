@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import rzr01 from "../components/assets/RZR/Wolfpack_RZR_4 Seater_Dunes.jpg";
-import mustang01 from "../components/assets/Car Wraps/Ford Mustang_matte blue Wrap.jpg";
+import Head from "next/head";
+import Script from "next/script";
 import qar01 from "../components/assets/Car Wraps/Corvette z06_matte black wrap.jpg";
 import eco01 from "../components/assets/Partial Wraps/F-150 Satin Black_Partial Wrap.jpg";
 import rv01 from "../components/assets/RV Wraps/RV Wrap 01.jpg";
@@ -15,11 +15,33 @@ import { BiTimeFive } from "react-icons/bi";
 const VanWraps = () => {
   return (
     <>
+      <Head>
+        <title>DC Visual - Van Wraps</title>
+        <meta
+          name="description"
+          content="Best Source for Van Wraps in Texoma, Dallas and all of North-Central Texas"
+          key="desc"
+        />
+        <Script
+          strategy="lazyOnload"
+          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS}`}
+        />
+        <Script id="ga-script" strategy="lazyOnload">
+          {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '${process.env.GOOGLE_ANALYTICS}', {
+      page_path: window.location.pathname,
+    });
+        `}
+        </Script>
+      </Head>
       <div className=" w-full">
         <h1 className=" text-3xl pt-24 text-center text-white font-bold">
           Van Wraps
         </h1>
-        <h2 className=" text-xl text-center text-blue-500 pt-2 tracking-widest px-4">
+        <h2 className=" text-xl text-center text-yellow-500 pt-2 tracking-widest px-4">
           Who Wants 16 Million Views?
         </h2>
         <p className=" text-sm text-center text-gray-300 p-4 sm:text-base tracking-widest px-4 sm:px-24 md:px-28 lg:px-48">
@@ -132,7 +154,7 @@ const VanWraps = () => {
         {/*  */}
         {/*  */}
 
-        <h2 className="text-center text-3xl font-bold text-blue-500 pt-16 px-4">
+        <h2 className="text-center text-3xl font-bold text-yellow-500 pt-16 px-4">
           What the Numbers Say
         </h2>
 

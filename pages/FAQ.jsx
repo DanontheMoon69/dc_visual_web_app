@@ -1,5 +1,6 @@
 import React from "react";
 import Head from "next/head";
+import Script from "next/script";
 
 const FAQ = () => {
   return (
@@ -11,6 +12,20 @@ const FAQ = () => {
           content="We have the solution for your Vehicle Fleet Wraps, Wall Wraps, Window Wraps, Floor Wraps, from Design to Installation. We also offer Web Development!"
           key="desc"
         />
+        <Script
+          strategy="lazyOnload"
+          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS}`}
+        />
+        <Script id="ga-script" strategy="lazyOnload">
+          {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '${process.env.GOOGLE_ANALYTICS}', {
+      page_path: window.location.pathname,
+    });
+        `}
+        </Script>
       </Head>
       <div className="flex flex-col justify-center items-center pt-24 w-full  max-w-2xl">
         <div className="flex text-3xl font-bold text-white text-center justify-center">
@@ -22,10 +37,10 @@ const FAQ = () => {
             <div className="text-sm pt-2">
               We can Wrap Trucks, Cars, Vans, Box Trucks, RV&apos;s, Boats,
               Trailers, Walls, Windows, Floors or anything else you might want
-              to customize. We&apos;ve wrapped Piano&apos;s, Ice Cream Carts, Guns,
-              and much more. If you have an idea for something that hasn&apos;t
-              been listed, please reach out, We&apos;d be interested in trying
-              something new!
+              to customize. We&apos;ve wrapped Piano&apos;s, Ice Cream Carts,
+              Guns, and much more. If you have an idea for something that
+              hasn&apos;t been listed, please reach out, We&apos;d be interested
+              in trying something new!
             </div>
           </div>
           <div className="flex flex-col pt-2">
