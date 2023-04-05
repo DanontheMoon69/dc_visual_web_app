@@ -62,12 +62,13 @@ const Quote = () => {
           content="Get a quote for your next Car Wrap, Truck Wrap, Van Wrap, Fleet Wrap, Wall Wrap or Window Wrap"
           key="desc"
         />
-        <Script
-          strategy="lazyOnload"
-          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS}`}
-        />
-        <Script id="ga-script" strategy="lazyOnload">
-          {`
+      </Head>
+      <Script
+        strategy="lazyOnload"
+        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS}`}
+      />
+      <Script id="ga-script" strategy="lazyOnload">
+        {`
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
@@ -75,8 +76,7 @@ const Quote = () => {
       page_path: window.location.pathname,
     });
         `}
-        </Script>
-      </Head>
+      </Script>
       <div className="flex flex-col">
         <h2 className=" text-white text-4xl font-bold text-center">
           Looking to get a wrap?

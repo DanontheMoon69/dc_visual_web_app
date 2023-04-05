@@ -23,12 +23,13 @@ const Services = () => {
           content="From Logo Design & Brand Development to Fleet Wraps and Websites. We've Got You Covered!"
           key="desc"
         />
-        <Script
-          strategy="lazyOnload"
-          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS}`}
-        />
-        <Script id="ga-script" strategy="lazyOnload">
-          {`
+      </Head>
+      <Script
+        strategy="lazyOnload"
+        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS}`}
+      />
+      <Script id="ga-script" strategy="lazyOnload">
+        {`
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
@@ -36,8 +37,7 @@ const Services = () => {
       page_path: window.location.pathname,
     });
         `}
-        </Script>
-      </Head>
+      </Script>
       {/* MODALS */}
 
       {/* FLEET WRAPS MODAL */}

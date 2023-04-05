@@ -39,12 +39,13 @@ export default function Home() {
           content="#1 Source for Fleet Wraps, Wall Wraps, Windows Wraps & Floor Wraps in Texoma, Dallas and all of North-Central Texas"
           key="desc"
         />
-        <Script
-          strategy="lazyOnload"
-          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS}`}
-        />
-        <Script id="ga-script" strategy="lazyOnload">
-          {`
+      </Head>
+      <Script
+        strategy="lazyOnload"
+        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS}`}
+      />
+      <Script id="ga-script" strategy="lazyOnload">
+        {`
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
@@ -52,8 +53,7 @@ export default function Home() {
       page_path: window.location.pathname,
     });
         `}
-        </Script>
-      </Head>
+      </Script>
       <div className=" flex flex-col items-center    text-center h-full pt-24 pb-15 ">
         {/*  */}
         {/* "RIGHT PRODUCT" MODAL */}

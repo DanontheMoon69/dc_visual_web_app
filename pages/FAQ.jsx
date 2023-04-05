@@ -12,12 +12,13 @@ const FAQ = () => {
           content="We have the solution for your Vehicle Fleet Wraps, Wall Wraps, Window Wraps, Floor Wraps, from Design to Installation. We also offer Web Development!"
           key="desc"
         />
-        <Script
-          strategy="lazyOnload"
-          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS}`}
-        />
-        <Script id="ga-script" strategy="lazyOnload">
-          {`
+      </Head>
+      <Script
+        strategy="lazyOnload"
+        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS}`}
+      />
+      <Script id="ga-script" strategy="lazyOnload">
+        {`
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
@@ -25,8 +26,7 @@ const FAQ = () => {
       page_path: window.location.pathname,
     });
         `}
-        </Script>
-      </Head>
+      </Script>
       <div className="flex flex-col justify-center items-center pt-24 w-full  max-w-2xl">
         <div className="flex text-3xl font-bold text-white text-center justify-center">
           Frequently Asked Questions

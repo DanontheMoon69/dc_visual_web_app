@@ -20,12 +20,13 @@ const CarWraps = () => {
           content="Best Source for Car Wraps in Texoma, Dallas and all of North-Central Texas"
           key="desc"
         />
-        <Script
-          strategy="lazyOnload"
-          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS}`}
-        />
-        <Script id="ga-script" strategy="lazyOnload">
-          {`
+      </Head>
+      <Script
+        strategy="lazyOnload"
+        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS}`}
+      />
+      <Script id="ga-script" strategy="lazyOnload">
+        {`
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
@@ -33,8 +34,7 @@ const CarWraps = () => {
       page_path: window.location.pathname,
     });
         `}
-        </Script>
-      </Head>
+      </Script>
       <div className=" w-full">
         <h1 className=" text-3xl pt-24 text-center text-white font-bold">
           Car Wraps
