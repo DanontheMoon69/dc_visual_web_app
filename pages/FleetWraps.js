@@ -1,15 +1,10 @@
 import React from "react";
 import Image from "next/image";
-import rzr01 from "../components/assets/RZR/Wolfpack_RZR_4 Seater_Dunes.jpg";
-import mustang01 from "../components/assets/Car Wraps/Ford Mustang_matte blue Wrap.jpg";
-import qar01 from "../components/assets/Car Wraps/Corvette z06_matte black wrap.jpg";
-import eco01 from "../components/assets/Partial Wraps/F-150 Satin Black_Partial Wrap.jpg";
-import rv01 from "../components/assets/RV Wraps/RV Wrap 01.jpg";
+import Head from "next/head";
+import Script from "next/script";
 import fleet01 from "../components/assets/Fleet Wraps/DC_fleet.png";
-import van01 from "../components/assets/Van Wraps/Ford Transit Wrap_Matte Black and Matte Metallic Grey.jpg";
-import USA from "../components/assets/Flags/USA.png";
+
 import { AiFillDollarCircle } from "react-icons/ai";
-import { BsFillKeyFill, BsFillArrowUpCircleFill } from "react-icons/bs";
 import { BiTimeFive } from "react-icons/bi";
 import { GiBrain } from "react-icons/gi";
 

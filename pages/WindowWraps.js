@@ -2,7 +2,8 @@ import React from "react";
 import Image from "next/image";
 import partyWith01 from "../components/assets/Wall Wraps/Window Wrap 01.jpg";
 import partyWith02 from "../components/assets/Wall Wraps/Window Wrap 02.jpg";
-
+import Head from "next/head";
+import Script from "next/script";
 import { AiFillDollarCircle, AiOutlineEye } from "react-icons/ai";
 import { BsFillKeyFill, BsFillArrowUpCircleFill } from "react-icons/bs";
 import { BiTimeFive } from "react-icons/bi";
