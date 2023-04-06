@@ -151,8 +151,8 @@ export default function Home() {
 
             <div className="flex flex-col px-1 text-2xl text-white font-black">
               <h1>DC VISUAL</h1>
-              <h2 className="text-sm font-normal">Lewisville, TX</h2>
-              <h2 className="text-sm font-normal">Texoma Vehicle Wraps</h2>
+              <h3 className="text-sm font-normal">Lewisville, TX</h3>
+              <h3 className="text-sm font-normal">Texoma Vehicle Wraps</h3>
             </div>
             <Image src={texasFlag} alt="USA" className=" w-16" />
           </div>
@@ -168,9 +168,9 @@ export default function Home() {
           <br />
           Installer
         </div>
-        <h3 className=" text-yellow-500 text-xs sm:text-lg font-semibold tracking-widest mt-4">
-          FULL SERVICE FLEET BRANDING COMPANY
-        </h3>
+        <h2 className=" text-yellow-500 text-xs sm:text-lg font-semibold tracking-widest mt-4">
+          FULL SERVICE VEHICLE WRAP COMPANY
+        </h2>
         <div className=" text-white text-3xl sm:text-4xl font-bold  mt-1 tracking-wider">
           DRIVE YOUR BRAND
         </div>
